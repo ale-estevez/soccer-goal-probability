@@ -17,6 +17,12 @@ Predicts the probability that a shot becomes a goal, using free StatsBomb open d
 
 Calibration plots show predicted and actual goal rates match across the range.
 
+![Log loss comparison](images/log_loss.png)
+
+![Calibration plot](images/calibration.png)
+
+Dots near the dashed line mean the probabilities are honest: when the model says 30%, about 30% of those shots score.
+
 ## Limitations
 - Bundesliga open data covers only Bayer Leverkusen's matches
 - Penalties excluded
